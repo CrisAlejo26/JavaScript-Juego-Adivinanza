@@ -1,0 +1,61 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 4%, rgba(253,29,29,1) 55%, rgba(252,176,69,1) 91%);
+    font-family: sans-serif; /* Definiendo estilo de letra*/
+    color: white; /* Color de la letra*/
+}
+
+main{
+    width: 730px; /* Estamos dando un contenedor en todo lo que rodea el main*/
+    margin: 30px auto; /* definiendo un margen desde arriba y los demas son automaticos */
+    display: flex; /* Esto es para que el elemento se ubique al lado del otro*/
+    align-items: center; /* se alinea al frente del cuadro */
+}
+
+.section1{
+    background-color: rgba(255,255,255,0.2); /* El recuadro con transparencia*/
+    padding: 0 10px 10px 10px; /* Pading alrededor del boton*/
+    border-radius: 8px; /* redondear bordes*/
+}
+
+h1{
+    text-align: center; /* centrar todos los h1*/
+}
+
+button{
+    height: 100px; /* Alto*/
+    width: 100px; /* Ancho*/
+    font-size: 40px; /* Tamaño de fuente*/
+    color: black; /* Color de fuente*/
+    font-weight: bold; /* Grosor de la letra*/
+}
+
+button:hover{
+    cursor: pointer; /* Efecto del puntero cuando pasa por encima del boton*/
+}
+
+.section2{
+    background-color: rgba(255,255,255,0.2); /* El recuadro de aciertos, tiempo y movimientos */
+    width: 250px; /* Ancho */
+    height: 400px; /* Alto */
+    border-top-right-radius: 8px; /* borde superior derecho */
+    border-top-left-radius: 8px;  /* borde superior izquierdo */
+    padding: 0 20px;
+}
+
+.estadisticas{
+    border: 1px solid white; /* generando un borde a las estadisticas con estilo solido */
+    margin: 20px 20px 20px 20px; /* margen del recuadro blanco transparente*/
+    height: 105px; /* altura */
+    border-radius: 8px; /* borde del cuadro */
+    padding: 8px 20px; /* padding hacia adentro*/
+    box-sizing: border-box; /* hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente */
+}
+
+footer{
+    text-align: center; /* se centra el texto*/
+}
+
+a{
+    text-decoration: none; /* quitamos la linea que tiene debajo el enlace*/
+}
